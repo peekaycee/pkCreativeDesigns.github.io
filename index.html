@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coded Bar</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome--css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome--css/fontawesome.min.css" />
+  </head>
+  <body>
+    <main id="blur">
+      <div class="menubtn" id="open" onclick="openNav()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="menubtn-close" id="close" onclick="closeNav()">
+        <i class="fa-solid fa-times"></i>
+      </div>
+      <div class="logo">
+        <a href="index.html"><img src="/images/coded_bar_logo.jpg" /></a>
+      </div>
+      <div class="hero-container">
+        <header>
+          <div class="navigation">
+            <nav>
+              <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li class="menu-dropdown">
+                  <a href="menu.html" target="_blank"
+                    >Menu<i class="fa-solid fa-caret-down"></i
+                  ></a>
+                  <ul>
+                    <li class="drinks">
+                      <a href="menu.html#parfait" target="_blank">Parfait</a>
+                    </li>
+                    <li class="drinks">
+                      <a href="menu.html#smoothies" target="_blank"
+                        >Smoothies</a
+                      >
+                    </li>
+                    <li class="drinks">
+                      <a href="menu.html#food" target="_blank">Food</a>
+                    </li>
+                    <li class="drinks">
+                      <a href="menu.html#drinks" target="_blank">Drinks</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="service.html" target="_blank">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#register" onclick="toggle()">Register</a></li>
+              </ul>
+            </nav>
+            <button type="button">
+              <a href="https://web.whatsapp.com/" target="_blank">Order</a>
+            </button>
+          </div>
+        </header>
+
+        <div class="overlay"></div>
+
+        <div class="hero--text">
+          <h1>Coded<span>Bar</span></h1>
+          <h3>This is where you get the best of drinks</h3>
+          <p>
+            We offer you the best of all you want in a conducive environ and a relaxed mood of comfort
+          </p>
+
+          <button class="calltoaction" type="button">
+            <a href="https://web.whatsapp.com/" target="_blank">Order</a>
+          </button>
+        </div>
+      </div>
+
+      <!-- ----------------------- section 1 -------------------------------- -->
+
+      <div id="about"></div>
+      <div class="section section-1 about up">
+        <div class="aboutText">
+          <div class="section left">
+            <h2>About</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum,
+            praesentium officia itaque impedit accusantium blanditiis ipsa
+            tempore dignissimos dolorum, excepturi facilis molestias nesciunt.
+            Saepe voluptatibus harum possimus a, id placeat fuga vero expedita,
+            maiores vitae repellat debitis. Dolores sapiente blanditiis beatae?
+            Nemo nisi dolores dolorem minus ullam nihil, neque perspiciatis non
+            obcaecati,ernatur fuga quis quod assumenda ratione recusandae a ipsa
+            ducimus earum?
+          </p>
+        </div>
+
+        <div class="aboutpics section right">
+          <img class="frontpic" src="/images/oki--2.png" />
+        </div>
+      </div>
+
+      <!-------------------------- section 2 ----------------------------->
+
+      <section class="section-2 drinkSlide-1">
+        <div class="section left">
+          <h2>Recipe</h2>
+        </div>
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <input type="radio" name="radio-btn" id="radio5" />
+            <input type="radio" name="radio-btn" id="radio6" />
+            <input type="radio" name="radio-btn" id="radio7" />
+            <input type="radio" name="radio-btn" id="radio8" />
+            <input type="radio" name="radio-btn" id="radio9" />
+            <input type="radio" name="radio-btn" id="radio10" />
+
+            <div class="slide first">
+              <img src="/images/pexels-joonas-kääriäinen-239466.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-valeria-ushakova-3094227.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-taryn-elliott-4099234.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-eva-bronzini-6261272.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-stanislav-kondratiev-2909085.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-joonas-kääriäinen-239466.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-valeria-ushakova-3094227.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-taryn-elliott-4099234.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-eva-bronzini-6261272.jpg" />
+            </div>
+
+            <div class="slide">
+              <img src="/images/pexels-stanislav-kondratiev-2909085.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------- section 3 -------------------->
+      <section class="section-3 values">
+        <div class="card section left">
+          <div class="cardtext">
+            <h2>Values</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, distinctio. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="logoImage">
+            <img src="/images/coded_bar_logo.jpg" />
+          </div>
+        </div>
+
+        <div class="card section up">
+          <div class="cardtext">
+            <h2>Values</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, distinctio. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="logoImage">
+            <img src="/images/coded_bar_logo.jpg" />
+          </div>
+        </div>
+
+        <div class="card section right">
+          <div class="cardtext">
+            <h2>Values</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, distinctio. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="logoImage">
+            <img src="/images/coded_bar_logo.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <!----------------- section 4 -------------------->
+      <section class="section section-4">
+        <div class="section left">
+          <h2>Recipes</h2>
+        </div>
+        <div class="section section-4holder">
+          <div class="showcase-text">
+            <div class="showcase-text-hold">
+                <input type="radio" name="input-btn" id="change1">
+                <input type="radio" name="input-btn" id="change2">
+                <input type="radio" name="input-btn" id="change3">
+                <input type="radio" name="input-btn" id="change4">
+                
+                <div class="recipe-text start">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa enim assumenda minus molestias? Illum magni quae mollitia ea neque?
+                    </p>
+                    <button>Order</button>
+                </div>
+                <div class="recipe-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa enim assumenda minus molestias? Illum magni quae mollitia ea neque?
+                    </p>
+                    <button>Order</button>
+                </div>
+                <div class="recipe-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa enim assumenda minus molestias? Illum magni quae mollitia ea neque?
+                    </p>
+                    <button>Order</button>
+                </div>
+                <div class="recipe-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa enim assumenda minus molestias? Illum magni quae mollitia ea neque?
+                    </p>
+                    <button>Order</button>
+                </div> 
+            </div>  
+          </div>
+
+          <div class="showcase-image">
+            <div class="showcase-image-hold">
+                <div class="recipe-image" id="changeImage"></div>
+          </div>
+        
+        </div> 
+      </section>
+
+      <!----------------- section 5 -------------------->
+      <section class="section-5 staff">
+        <div class="section left">
+          <h2>Mixiologies</h2>
+        </div>
+        <div class="staffPicsHolder">
+          <div class="staffpics section left">
+            <div class="staffimg">
+              <img src="/images/oki--1.png" />
+            </div>
+            <div class="staffname">
+              <p>Lorem, ipsum.lorem</p>
+            </div>
+          </div>
+          <div class="staffpics section up">
+            <div class="staffimg">
+              <img src="/images/oki--3.png" />
+            </div>
+            <div class="staffname">
+              <p>Lorem, ipsum.lorem</p>
+            </div>
+          </div>
+          <div class="staffpics section right">
+            <div class="staffimg">
+              <img src="/images/oki--1.png" />
+            </div>
+            <div class="staffname">
+              <p>Lorem, ipsum.lorem</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------- section 6----------------------- -->
+      <section class="section-6">
+        <div class="registerholder section up">
+          <div class="registerText">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio impedit soluta et dicta, assumenda harum maiores magni
+              quidem fuga doloremque.
+            </p>
+          </div>
+          <div class="btn">
+            <button type="button">Order Now !</button>
+          </div>
+        </div>
+      </section>
+
+      <!----------------- footer -------------------->
+      <footer class="footer">
+        <div>
+          <h3><span>Quick L</span>inks</h3>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="service.html">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <h3><span>Order N</span>ow!</h3>
+          <nav>
+            <a href="menu.html#parfait">Parfait</a>
+            <a href="menu.html#smoothies">Smoothies</a>
+            <a href="menu.html#food">Food</a>
+            <a href="menu.html#drinks">Drinks</a>
+          </nav>
+        </div>
+
+        <div class="contact" id="contact">
+          <h3><span>Contact U</span>s</h3>
+          <nav>
+            <p class="contactlink">
+              <a
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31717.267140059317!2d3.4075788690699333!3d6.437900392584933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf51fa7abc425%3A0x59bff6aa2aef1328!2sBEYOND%20FAB%20SMOOTHIES!5e0!3m2!1sen!2sng!4v1665648752685!5m2!1sen!2sng"
+                target="_blank"
+              >
+                <span><i class="fa-solid fa-address-book"></i></span> Lorem
+                ipsum dolor sit amet <br />consectetur, adipisicing elit.
+                Commodi, <br />asperiores. Lorem ipsum dolor sit amet,
+                <br />consectetur adipisicing elit. Ratione, quasi.
+              </a>
+            </p>
+
+            <p class="phoneNumber">
+              <span><i class="fa-solid fa-phone"></i></span> 07032269794
+            </p>
+
+            <p class="email">
+              <span><i class="fa-solid fa-mail-bulk"></i></span
+              >example@example.com
+            </p>
+          </nav>
+
+          <div class="media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h3 class="location"><span>Locat</span>ion</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31717.267140059317!2d3.4075788690699333!3d6.437900392584933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf51fa7abc425%3A0x59bff6aa2aef1328!2sBEYOND%20FAB%20SMOOTHIES!5e0!3m2!1sen!2sng!4v1665648752685!5m2!1sen!2sng"
+            width="450"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </footer>
+      <div class="copyright">
+        <p>2022, production: created by <em>PK | CreativeDesigns</em></p>
+      </div>
+    </main>
+
+    <!-- ========================= Registration Form =========================== -->
+    <div class="container" id="form">
+      <div class="title">
+        <h2>Registration Form</h2>
+      </div>
+
+      <form action="#" method="post" target="_self">
+        <!-- https://formsubmit.co/kalukaluokomba@gmail.com -->
+
+        <div class="User-details">
+          <div class="input-box">
+            <span class="details">FULL NAME</span>
+            <input type="text" placeholder="Enter Your Name" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">ADDRESS </span>
+            <input type="text" placeholder="Address Line 1" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">PHONE NUMBER</span>
+            <input type="text" placeholder="Enter Your Number" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">EMAIL ADDRESS</span>
+            <input type="text" placeholder="Enter Your Email" required />
+          </div>
+
+          <div class="input-box gender">
+            <label for="gender">GENDER:</label>
+            <input type="radio" name="gender" id="dot-1" /><span>Male</span>
+            <input type="radio" name="gender" id="dot-2" /><span>Female</span>
+          </div>
+
+          <div class="input-box training">
+            <label for="training-choice">CHOICE:</label>
+            <select name="Training" id="training-choice">
+              <option id="deemed">select . . .</option>
+              <option value="Parfait">Perfait</option>
+              <option value="Parfait">Smoothies</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="information">
+          <label for="other-information">Other Information (optional...)</label>
+          <textarea
+            name="other-information"
+            id="information"
+            cols="200"
+            rows="5"
+          ></textarea>
+        </div>
+        <div class="button">
+          <button type="submit" onclick="toggleSub()">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="navtabs">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="service.html">Services</a>
+        <a href="#about" onclick="navtabClose()">About</a>
+        <a href="#contact" onclick="navtabClose()">Contact</a>
+        <a href="#register" onclick="toggle(); tab();">Register</a>
+        <a
+          href="https://web.whatsapp.com/"
+          target="_blank"
+          onclick="navtabClose()"
+          >Order</a
+        >
+      </nav>
+    </div>
+
+    <!-- <div id="registration-confirmed" >
+        <div class="closemark" >
+            <i class='fa-solid fa-xmark' onclick="close()"></i>
+        </div>
+        <div class="regicon">
+            <img src="/images/tickMark.png">
+        </div>
+        <div class="completed">
+            <p>Registration<br>Completed!</p>
+        </div>
+    </div> -->
+
+    <!-------- scripting ----------->
+    <script src="index.js"></script>
+    <script>
+        counterz();
+        counter2();
+        countz();
+    </script>
+  </body>
+</html>
