@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+/* --blog---------------------------------- */
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    border-bottom: 1px solid rgba(0, 0,0, 0.5);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./sm11.jpg);
+    background-color:rgba(7, 128, 248, 0.849) ;
+    background-blend-mode: darken;
+    background-origin: calc(1);
+    opacity: calc(0.9);
+    z-index: 3;
+    font-family: oslwad;
+    background:(dodgerblue,black 5%,gray 5%);
+}
+.blog-heading span{
+    /* color: #f33c3c; */
+    color: rgb(247, 26, 136);
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    font-weight: 600;
+    /* color: #2b2b2b; */
+    -webkit-text-stroke: 1px  #f4f4f4;
+    color:transparent;
+}
+
+/* blog-container---------------- */
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+/* blog-box------------------ */
+.blog-box{
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.blog-box:hover{
+    transform: scale(1.0);
+    box-shadow: #9b9b9b 5px 5px 5px 5px;
+    opacity: 0.8;
+
+}
+
+/* blog-img------------------- */
+.blog-img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* text------------------- */
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text span{
+    color: #f33c3c;
+    font-size: 0.9rem;
+}
+
+/* blog-title------------------- */
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.blog-text .blog-title:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+
+/* blog-text p---------------------------- */
+.blog-text p{
+    color: #665252;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: auto;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text p:hover{
+    color: #f33c3c;
+}
+
+.blog-text a{
+    color: #0f0f0f;
+}
+.blog-text a:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+
+/* box-10------------------- */
+#blog-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+
+}
+.f-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgb(66, 6, 36);
+    color: snow;
+    border-top:8px solid rgb(235, 32, 133);
+
+}
+.fs{
+    margin: 20px;
+    font-size: 0.8rem;
+}
+
+/* rex-------------------- */
+.rex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+    
+}
+
+/* p--------------- */
+.fp{
+    font-size: 0.8rem;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin: 20px;
+    flex-direction: column;
+    width: 150px;
+
+}
+
+/* fs1------------------ */
+.fs1 img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: hotpink;
+    border-radius: 10px;
+    
+}
+.fs1 img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+/* fs2------------------ */
+.fs2{
+    font-size: 0.8rem;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin: 20px;
+    color: rgb(177, 168, 168); 
+}
+
+/* Responsiveness */
+
+/* @media(min-width:313px) {
+    .blog-box{
+        width: 300px;
+    }
+    
+}
+
+@media(min-width:303px) {
+    .blog-box{
+        width: 70%;
+    }
+    
+}
+@media(min-width:269px) {
+    .blog-box{
+        margin: 20px 20px;
+        width: 70%;
+    }
+
+    #blog{
+        padding: 20px;
+    }
+    
+} */
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="coded-form .css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="fontawesome--css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome--css/fontawesome.min.css" />
+  </head>
+  <body>
+    <div class="formBG">
+        <div class="container">
+            <div class="title">
+                <h2>Registration Form</h2>
+            </div>
+
+            <form action="https://formsubmit.co/kalukaluokomba@gmail.com" method="post">
+                
+                <div class="User-details">
+                    <div class="input-box">
+                        <span class="details">FULL NAME</span>
+                        <input type="text" placeholder="Enter Your Name" required />
+                    </div>
+                
+                    <div class="input-box">
+                        <span class="details">ADDRESS </span>
+                        <input type="text" placeholder="Address Line 1" required />
+                    </div>
+                
+                    <div class="input-box">
+                        <span class="details">PHONE NUMBER</span>
+                        <input type="text" placeholder="Enter Your Number" required />
+                    </div>
+                
+                    <div class="input-box">
+                        <span class="details">EMAIL ADDRESS</span>
+                        <input type="text" placeholder="Enter Your Email" required />
+                    </div>
+                    
+                    <div class="input-box gender">
+                        <label for="gender">GENDER:</label>
+                        <input type="radio" name="gender" id="dot-1" /><span>Male</span> 
+                        <input type="radio" name="gender" id="dot-2" /><span>Female</span>
+                    </div>
+
+                    <div class="input-box training">
+                        <label for="training-choice">CHOICE:</label>
+                        <select name="Training" id="training-choice">
+                        <option id="deemed">select . . .</option>
+                        <option value="Parfait">Perfait</option>
+                        <option value="Parfait">Smoothies</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <label for="other-information">Other Information (optional...)</label>
+                    <textarea name="other-information" id="information" cols="200" rows="5"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
