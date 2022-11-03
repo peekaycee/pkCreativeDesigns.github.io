@@ -116,7 +116,7 @@
   .showcase {
     margin-top: 30px;
     max-width: 100%;
-  }
+  }   
   .slider {
     width: 100%;
   }
@@ -284,7 +284,7 @@
   }
   .slider {
     width: 100%;
-  height: 200px;
+  height: 300px;
   }
   .slide {
    width: 10%;
@@ -495,9 +495,10 @@
     float: left;
   }
   footer div.contact {
-    float: left;
+    clear: left;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 250px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
