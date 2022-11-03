@@ -10,10 +10,10 @@ let countdown = 1;
 const sections = document.querySelectorAll('.section');
 const triggerPoint = window.innerHeight/5*4;
 const imageObj = {
-    'image1': 'background: url(/images/pexels-eva-bronzini-6261272.jpg); backgroundRepeat: no-repeat; background-position: center; background-size: cover;',
-    'image2': 'background: url(/images/pexels-taryn-elliott-4099234.jpg); backgroundRepeat: no-repeat; background-position: center; background-size: cover;',
-    'image3': 'background: url(/images/pexels-pixabay-33265.jpg); backgroundRepeat: no-repeat; background-position: center; background-size: cover;',
-    'image4': 'background: url(/images/pexels-joonas-kääriäinen-239466.jpg); backgroundRepeat: no-repeat; background-position: center; background-size: cover;'
+    'image1': 'background: url(./images/pexels-eva-bronzini-6261272.jpg); backgroundRepeat: no-repeat; background-position: center; background-size: cover;',
+    'image2': 'background: url(./images/pexels-taryn-elliott-4099234.jpg); backgroundRepeat: no-repeat; background-position: center; background-size: cover;',
+    'image3': 'background: url(./images/pexels-pixabay-33265.jpg); backgroundRepeat: no-repeat; background-position: center; background-size: cover;',
+    'image4': 'background: url(./images/pexels-joonas-kääriäinen-239466.jpg); backgroundRepeat: no-repeat; background-position: center; background-size: cover;'
 } 
 
 function regbtn() {
