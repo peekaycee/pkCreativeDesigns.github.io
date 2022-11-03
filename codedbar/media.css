@@ -463,6 +463,7 @@
 
   /* ==================== footer Responsiveness ====================== */
   footer.footer {
+    width: 100%;
     padding: 100px 30px;
     margin-top: 10px;
     height: 500px;
@@ -490,13 +491,12 @@
   .email {
     font-size: 1em;
   }
-   footer div.nav {
+    
+ footer div.nav {
     width: 50%;
-    float: left;
-   
+   float: left;
   }
   footer div.contact {
-    clear: left;
     width: 100%;
     margin-top: 250px;
     display: flex;
