@@ -394,11 +394,11 @@
     text-align: justify;
 }
  
-  .section-4holder button {
+  div.recipe-text button {
     position: relative;
     font-size: 1.2em;
     width: 100%;
-    margin-top: -50px;
+    margin-top: -30px;
   }
 
   .imagerecip {
@@ -466,7 +466,7 @@
     width: 100%;
     padding: 100px 30px;
     margin-top: 10px;
-    height: 655px;
+    height: 665px;
     overflow: hidden;
     display: block;
   }
