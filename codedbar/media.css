@@ -225,12 +225,12 @@
 
   div#open.menubtn {
     display: block;
-    top: 25px;
+    top: 20px;
     right: 30px;
   }
   
   div#close.menubtn-close {
-    top: 25px;
+    top: 20px;
     right: 30px;
   }
   
