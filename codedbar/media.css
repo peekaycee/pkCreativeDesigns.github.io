@@ -226,21 +226,21 @@
   div#open.menubtnM {
     display: block;
     top: 15px;
-    right: 15px;
+    right: 20px;
   }
   
   div#close.menubtnM-close {
     top: 15px;
-    right: 15px;
+    right: 20px;
   }
   div#open.menubtn {
     display: block;
-    top: 30px;
+    top: 50px;
     right: 30px;
   }
   
   div#close.menubtn-close {
-    top: 30px;
+    top: 50px;
     right: 30px;
   }
   
