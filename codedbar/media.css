@@ -226,12 +226,12 @@
   div#open.menubtnM {
     display: block;
     top: 15px;
-    right: 30px;
+    right: 15px;
   }
   
   div#close.menubtnM-close {
     top: 15px;
-    right: 30px;
+    right: 15px;
   }
   div#open.menubtn {
     display: block;
