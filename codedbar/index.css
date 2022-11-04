@@ -381,7 +381,7 @@ button.calltoaction:hover::before {
 
 .aboutText > p {
     color: var(--offwhite);
-  font-size: 1.3em;
+  font-size: 1.2em;
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: justify;
