@@ -314,7 +314,7 @@ button.calltoaction {
   outline: 0;
   margin-top: 25px;
   color: var(--black);
-  background: var(--offwhite);
+  background: var(--gold);
   cursor: pointer;
   transition: letter-spacing .3s linear;
 }
