@@ -223,13 +223,13 @@
     display: none;
   }
 
-  div#open.menubtn {
+  div#open.menubtnM {
     display: block;
     top: 15px;
     right: 30px;
   }
   
-  div#close.menubtn-close {
+  div#close.menubtnM-close {
     top: 15px;
     right: 30px;
   }
