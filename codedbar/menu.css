@@ -8,7 +8,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+body {
+  background: var(--offwhite);
+}
 div.mainBG {
   position: relative;
   width: 100%;
@@ -650,7 +652,7 @@ div.roll-in {
 }
 
 #navtabs nav a {
-    padding: 25px;
+    padding: 15px;
     text-decoration: none;
     color: #fff;
     font-family: var(--body-text);
