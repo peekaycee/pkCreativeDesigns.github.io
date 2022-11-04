@@ -69,7 +69,7 @@
     margin-top: 5px;
   }
 
-  .menubtn {
+  .menubtnM {
     position: absolute;
     top: 30px;
     right: 50px;
@@ -78,11 +78,11 @@
     cursor: pointer;
   }
   
-  .menubtn i {
+  .menubtnM i {
     font-size: 30px;
   }
   
-  .menubtn-close {
+  .menubtnM-close {
       position: absolute;
       top: 30px;
       right: 50px;
@@ -92,7 +92,7 @@
       cursor: pointer;
     }
     
-    .menubtn-close i {
+    .menubtnM-close i {
       font-size: 30px;
     }
 
