@@ -151,6 +151,7 @@
   .section-4holder button {
     padding: 7px 12px;
     font-size: 0.5;
+    margin-top: 0px;
   }
   .imagerecip {
     background-position: -240px -100px;
