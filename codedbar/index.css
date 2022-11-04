@@ -737,6 +737,7 @@ button.calltoaction:hover::before {
   background: var(--black);
   cursor: pointer;
   transition: width .3s linear, letter-spacing .3s linear;
+  border-radius: 9px;
 }
 
 .section-4holder button::before {
