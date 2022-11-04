@@ -233,6 +233,16 @@
     top: 15px;
     right: 30px;
   }
+  div#open.menubtn {
+    display: block;
+    top: 30px;
+    right: 30px;
+  }
+  
+  div#close.menubtn-close {
+    top: 30px;
+    right: 30px;
+  }
   
   .menubtn i {
     font-size: 25px;
