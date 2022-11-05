@@ -9,14 +9,14 @@ html {
     scroll-behavior: smooth;
 }
 body {
-  background: var(--gold);
+  background: var(--offwhite);
 }
 div.mainBG {
   position: relative;
   width: 100%;
   min-height: 100vh;
   padding-bottom: 100px;
-  background: var(--gold);
+  background: var(--offwhite);
 }
 
 div.mainBG.active {
