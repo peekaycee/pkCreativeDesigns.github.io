@@ -213,6 +213,9 @@
     left: 30px;
     margin-top: 20px;
   }
+  div.btn button::before {
+    width: 100%;
+  }
   
   div.logo a img {
     width: 70px;
