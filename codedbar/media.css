@@ -145,7 +145,7 @@
     height: 450px;
 }
 
-  #inputo1:checked ~ .first {
+  #input1:checked ~ .first {
     margin-left: 0;
 }
 #input2:checked ~ .first {
@@ -164,16 +164,16 @@
     margin-left: -100%;
 }
 #input7:checked ~ .first {
-    margin-left: -1200%;
+    margin-left: -120%;
 }
 #input8:checked ~ .first {
-    margin-left: -1200%;
+    margin-left: -140%;
 }
 #input9:checked ~ .first {
-    margin-left: -1200%;
+    margin-left: -160%;
 }
 #input10:checked ~ .first {
-    margin-left: -1200%;
+    margin-left: -180%;
 }
   .section-3 {
     display: block;
@@ -385,7 +385,7 @@
     height: 300px;
 }
 
-  #inputo1:checked ~ .first {
+  #input1:checked ~ .first {
     margin-left: 0;
 }
 #input2:checked ~ .first {
@@ -404,16 +404,16 @@
     margin-left: -100%;
 }
 #input7:checked ~ .first {
-    margin-left: -1200%;
+    margin-left: -120%;
 }
 #input8:checked ~ .first {
-    margin-left: -1200%;
+    margin-left: -140%;
 }
 #input9:checked ~ .first {
-    margin-left: -1200%;
+    margin-left: -160%;
 }
 #input10:checked ~ .first {
-    margin-left: -1200%;
+    margin-left: -180%;
 }
   .section-2 > div > h2 {
     display: none;
