@@ -117,8 +117,8 @@
   }
   
   .slider {
-    width: 700px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
     
@@ -126,7 +126,7 @@
 
 .slides {
     width: 500%;
-    height: 450px;
+    height: 500px;
     display: flex;
     
 }
@@ -141,8 +141,8 @@
 }
 
 .slide img {
-    width: 700px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
 }
 
   #input1:checked ~ .first {
