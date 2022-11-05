@@ -213,6 +213,7 @@
     left: 30px;
     margin-top: 20px;
   }
+  .tags a::before,
   div.btn button::before {
     width: 100%;
   }
