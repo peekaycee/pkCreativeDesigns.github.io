@@ -215,10 +215,9 @@
     z-index: 100;
     }
   }
-  .tags a::before,
+ 
   div.btn button::before {
     width: 100%;
-    z-index: -1;
   }
   div.logo a img {
     width: 70px;
