@@ -34,10 +34,10 @@ function toggleSub() {
 };
 function counter2() {
     setInterval(() => {
-    document.getElementById('radio' + counter).checked= true;
+    document.getElementById('input' + counter).checked= true;
     counter++;
 
-    if (counter > 7) {
+    if (counter > 6) {
         counter = 1;
     }
 }, 3000);
