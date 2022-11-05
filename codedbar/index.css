@@ -465,25 +465,25 @@ button.calltoaction:hover::before {
     height: 300px;
 }
 
-#radio1:checked ~ .first {
+#input1:checked ~ .first {
     margin-left: 0;
 }
-#radio2:checked ~ .first {
+#input2:checked ~ .first {
     margin-left: -5%;
 }
-#radio3:checked ~ .first {
+#input3:checked ~ .first {
     margin-left: -10%;
 }
-#radio4:checked ~ .first {
+#input4:checked ~ .first {
     margin-left: -15%;
 }
-#radio5:checked ~ .first {
+#input5:checked ~ .first {
     margin-left: -20%;
 }
-#radio6:checked ~ .first {
+#input6:checked ~ .first {
     margin-left: -25%;
 }
-#radio7:checked ~ .first {
+#input7:checked ~ .first {
     margin-left: -30%;
 }
 
