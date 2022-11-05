@@ -211,13 +211,17 @@
     width: 100%;
 /*     height: 300px; */
     left: 30px;
-    margin-top: 20px;
+    margin-top: 20px;.tags a{
+    z-index: 100;
+    }
   }
   .tags a::before,
   div.btn button::before {
     width: 100%;
   }
-  
+  .tags a{
+  z-index: 100;
+  }
   div.logo a img {
     width: 70px;
     top: 0px;
