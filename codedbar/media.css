@@ -601,6 +601,25 @@
   footer div.contact a {
     text-decoration: none;
   }
+  .media a .fa-facebook {
+  color: #3b5998;
+}
+
+.media a .fa-instagram {
+  color: #f14843;
+}
+
+.media a .fa-whatsapp {
+  color: #4fce5d;
+}
+
+.media a .fa-twitter {
+  color: #00acee;
+}
+
+.media a .fa-youtube {
+  color: #f00;
+}
 }
 
 /* ----------------Menu responsiveness------------------- */
