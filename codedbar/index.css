@@ -222,6 +222,7 @@ nav ul li a.active {
   height: 100vh;
   cursor: default;
   animation: changePics 20s infinite;
+  display: flex;
 }
 
 @keyframes changePics {
@@ -269,11 +270,13 @@ nav ul li a.active {
 
 .hero--text {
   position: relative;
-  z-index: 100;
-  padding: 230px 100px;
+/*   z-index: 100; */
+/*   padding: 230px 100px; */
   color: var(--offwhite);
-  max-width: 62%;
+/*   max-width: 62%; */
   height: auto;
+  margin-top: 190px;
+  margin-left: 30px;
 }
 
 div.hero--text h1 {
