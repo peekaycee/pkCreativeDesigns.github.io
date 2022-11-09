@@ -662,7 +662,7 @@ button.calltoaction:hover::before {
 }
 
 .recipe-text {
-    width: 21%;
+    width: 20%;
     transition: 2s;
     padding: 50px;
 }
