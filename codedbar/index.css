@@ -271,7 +271,7 @@ nav ul li a.active {
 .hero--text {
   position: relative;
   color: var(--offwhite);
-  max-width: 48%;
+  max-width: 47%;
   height: auto;
   margin-top: 190px;
   margin-left: 100px;
