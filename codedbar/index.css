@@ -274,7 +274,7 @@ nav ul li a.active {
   max-width: 50%;
   height: auto;
   margin-top: 190px;
-  margin-left: 70px;
+  margin-left: 100px;
 }
 
 div.hero--text h1 {
@@ -306,7 +306,7 @@ div.hero--text p {
 button.calltoaction {
   position: relative;
   z-index: 100;
-  width: 20%;
+  padding: 10px 30px;
   font-size: 1.5em;
   letter-spacing: 1px;
   font-weight: bold;
