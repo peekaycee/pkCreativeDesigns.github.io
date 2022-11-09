@@ -261,6 +261,13 @@
   }
 }
 
+@media only screen and (min-width: 641px) and (max-width: 720px) and (orientation: landscape) {
+  
+}
+
+
+
+
 @media only screen and (max-width: 640px) {
   div.logo {
     width: 100%;
@@ -795,9 +802,4 @@
         top: 80px;
       }
   }
-  
-@media screen and (max-width: 390px) {
-div.hero--text button {
-  width: 100%;
-  }
-}
+
