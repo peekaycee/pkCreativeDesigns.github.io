@@ -703,13 +703,6 @@ button.calltoaction:hover::before {
     z-index: 100;
 }
 
-
-/* .recipe-image img {
-    width: 300px;
-    height: 300px;
-    z-index: 100;
-} */
-
 #change1:checked ~ .start {
     margin-left: -60%;
 }
@@ -768,7 +761,6 @@ button.calltoaction:hover::before {
   color: var(--black);
   letter-spacing: 10px;
 }
-
 
 /* --------------------section-5------------ */
 .section-5 {
