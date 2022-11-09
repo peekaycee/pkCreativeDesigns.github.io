@@ -306,6 +306,7 @@ div.hero--text p {
 button.calltoaction {
   position: relative;
   z-index: 100;
+   padding: 10px 25px;
   font-size: 1.5em;
   letter-spacing: 1px;
   font-weight: bold;
@@ -323,7 +324,6 @@ button.calltoaction {
 button.calltoaction a {
     text-decoration: none;
     color: var(--black);
-  padding: 10px 25px;
 }
 
 button.calltoaction:hover {
