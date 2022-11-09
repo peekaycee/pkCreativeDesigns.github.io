@@ -271,7 +271,7 @@ nav ul li a.active {
 .hero--text {
   position: relative;
   color: var(--offwhite);
-  max-width: 50%;
+  max-width: 48%;
   height: auto;
   margin-top: 190px;
   margin-left: 100px;
@@ -306,7 +306,7 @@ div.hero--text p {
 button.calltoaction {
   position: relative;
   z-index: 100;
-   padding: 10px 25px;
+  padding: 10px 25px;
   font-size: 1.5em;
   letter-spacing: 1px;
   font-weight: bold;
@@ -318,12 +318,13 @@ button.calltoaction {
   background: var(--gold);
   cursor: pointer;
   transition: letter-spacing .3s linear;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 button.calltoaction a {
     text-decoration: none;
     color: var(--black);
+    padding: 10px 25px;
 }
 
 button.calltoaction:hover {
@@ -332,7 +333,7 @@ button.calltoaction:hover {
     z-index: 1;
     color: #000;
     transition: all 0.3s linear;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 button.calltoaction::before {
@@ -345,13 +346,13 @@ button.calltoaction::before {
     height: 100%;
     background: var(--gold);
     transition: all 0.3s linear;
-    border-radius: 5px;
+    border-radius: 3px;
 } 
 
 button.calltoaction:hover::before {
     width: 100%;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 /* ---------------- section 1 --------------- */
