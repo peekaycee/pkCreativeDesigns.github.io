@@ -212,7 +212,7 @@ nav ul li a.active {
 
 /* ---------------------hero page-------------- */
 .hero-container {
-  background: url(/images/pexels-bruno-ticianelli-674258.jpg) no-repeat;
+  background: url(./images/pexels-bruno-ticianelli-674258.jpg) no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -225,31 +225,31 @@ nav ul li a.active {
 
 @keyframes changePics {
   25% {
-    background: url(/images/istockphoto-536613839-612x612.jpg) no-repeat;
+    background: url(./images/istockphoto-536613839-612x612.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
   45% {
-    background: url(/images/pexels-joonas-kääriäinen-239466.jpg) no-repeat;
+    background: url(./images/pexels-joonas-kääriäinen-239466.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
   65% {
-    background: url(/images/pexels-eva-bronzini-6261272.jpg) no-repeat;
+    background: url(./images/pexels-eva-bronzini-6261272.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
   85% {
-    background: url(/images/pexels-stanislav-kondratiev-2909085.jpg) no-repeat;
+    background: url(./images/pexels-stanislav-kondratiev-2909085.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
   105% {
-    background: url(/images/pexels-pixabay-301692.jpg) no-repeat;
+    background: url(./images/pexels-pixabay-301692.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -502,7 +502,7 @@ button.calltoaction:hover::before {
   padding: 100px 0;
   width: 100%;
   height: auto;
-  background: url(/images/pexels-pixabay-33265.jpg) no-repeat;
+  background: url(./images/pexels-pixabay-33265.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -691,7 +691,7 @@ button.calltoaction:hover::before {
 }
 
 .recipe-image {
-  background: url(/images/pexels-cottonbro-4667152.jpg);
+  background: url(./images/pexels-cottonbro-4667152.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -767,7 +767,7 @@ button.calltoaction:hover::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(/images/pexels-cottonbro-4667152.jpg) no-repeat;
+  background: url(./images/pexels-cottonbro-4667152.jpg) no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
