@@ -5,22 +5,22 @@
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 main {
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
-    background: #000;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  background: #000;
 }
 
 main#blur.active {
-    filter: blur(20px);
-    pointer-events: none;
-    user-select: none;
-    transition: .5s;
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+  transition: 0.5s;
 }
 
 :root {
@@ -68,18 +68,18 @@ div.logo a img {
 }
 
 .menubtn-close {
-    position: absolute;
-    top: 30px;
-    right: 50px;
-    z-index: 100;
-    color: var(--offwhite);
-    z-index: 100000000000000;
-    display: none;
-  }
-  
-  .menubtn-close i {
-    font-size: 30px;
-  }
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  z-index: 100;
+  color: var(--offwhite);
+  z-index: 100000000000000;
+  display: none;
+}
+
+.menubtn-close i {
+  font-size: 30px;
+}
 
 header {
   position: fixed;
@@ -87,7 +87,7 @@ header {
   z-index: 10000;
   width: 100%;
   height: 90px;
-  padding: 5px 25px; 
+  padding: 5px 25px;
 }
 
 div.navigation {
@@ -124,7 +124,7 @@ nav ul li {
 }
 
 nav ul li a {
-  position: relative;  
+  position: relative;
   display: inline-block;
   text-decoration: none;
   color: var(--offwhite);
@@ -135,47 +135,46 @@ nav ul li a {
 }
 
 .menu-dropdown i {
-    font-size: 10px;
-    position: absolute;
-    padding: 4px;
+  font-size: 10px;
+  position: absolute;
+  padding: 4px;
 }
 
 .menu-dropdown {
-    position: relative;
-    padding: 15px 20px;
-    display: block;
-    transition: visibility 0.5s ease;
+  position: relative;
+  padding: 15px 20px;
+  display: block;
+  transition: visibility 0.5s ease;
 }
 
 .menu-dropdown:hover ul {
-    visibility: visible;
-} 
+  visibility: visible;
+}
 
 .menu-dropdown ul {
-    position: absolute;
-    display: block;
-    visibility: hidden;
-    text-align: center;
-    width: 150px;
-    height: auto;
-    padding: 0;
-    z-index: -1000000;
-    transition: visibility 0.3s ease;
+  position: absolute;
+  display: block;
+  visibility: hidden;
+  text-align: center;
+  width: 150px;
+  height: auto;
+  padding: 0;
+  z-index: -1000000;
+  transition: visibility 0.3s ease;
 }
 
 .menu-dropdown ul li {
-    position: relative;
-    display: block;
-    background: rgba(0, 0, 0, 0.5);
-    
+  position: relative;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .menu-dropdown ul li a {
-    display: block;
-    position: relative;
-    padding: 15px 20px;
-    margin: 0;
-    color: var(--offwhite);
+  display: block;
+  position: relative;
+  padding: 15px 20px;
+  margin: 0;
+  color: var(--offwhite);
 }
 
 nav ul li a:hover,
@@ -202,18 +201,18 @@ nav ul li a.active {
   cursor: pointer;
 }
 
-.navigation button a{
-    text-decoration: 0;
-    color: var(--black);
+.navigation button a {
+  text-decoration: 0;
+  color: var(--black);
 }
 
 .navigation button:hover {
- background: var(--gold);
+  background: var(--gold);
 }
 
 /* ---------------------hero page-------------- */
 .hero-container {
-  background: url(./images/pexels-bruno-ticianelli-674258.jpg) no-repeat;
+  background: url(/images/pexels-bruno-ticianelli-674258.jpg) no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -222,40 +221,39 @@ nav ul li a.active {
   height: 100vh;
   cursor: default;
   animation: changePics 20s infinite;
-  display: flex;
 }
 
 @keyframes changePics {
-    25% {
-       background: url(./images/istockphoto-536613839-612x612.jpg) no-repeat;
-       background-position: center;
-       background-size: cover;
-       background-attachment: fixed;
-    }
-    45% {
-       background: url(./images/pexels-joonas-kääriäinen-239466.jpg) no-repeat;
-       background-position: center;
-       background-size: cover;
-       background-attachment: fixed;
-    }
-    65% {
-       background: url(./images/pexels-eva-bronzini-6261272.jpg) no-repeat;
-       background-position: center;
-       background-size: cover;
-       background-attachment: fixed;
-    }
-    85% {
-       background: url(./images/pexels-stanislav-kondratiev-2909085.jpg) no-repeat;
-       background-position: center;
-       background-size: cover;
-       background-attachment: fixed;
-    }
-    105% {
-       background: url(./images/pexels-pixabay-301692.jpg) no-repeat;
-       background-position: center;
-       background-size: cover;
-       background-attachment: fixed;
-    }
+  25% {
+    background: url(/images/istockphoto-536613839-612x612.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  45% {
+    background: url(/images/pexels-joonas-kääriäinen-239466.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  65% {
+    background: url(/images/pexels-eva-bronzini-6261272.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  85% {
+    background: url(/images/pexels-stanislav-kondratiev-2909085.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  105% {
+    background: url(/images/pexels-pixabay-301692.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 .overlay {
@@ -270,15 +268,15 @@ nav ul li a.active {
 
 .hero--text {
   position: relative;
+  z-index: 100;
+  padding: 250px 100px;
   color: var(--offwhite);
-  max-width: 47%;
+  max-width: 62%;
   height: auto;
-  margin-top: 190px;
-  margin-left: 100px;
 }
 
 div.hero--text h1 {
-  font-size: 4.5em;
+  font-size: 5em;
   color: var(--offwhite);
   letter-spacing: 2px;
   margin-bottom: 12px;
@@ -292,7 +290,7 @@ div.hero--text h1 span {
 }
 
 div.hero--text h3 {
-  font-size: 2em;
+  font-size: 2.1em;
   margin-bottom: 10px;
   font-family: var(--body-text);
 }
@@ -306,53 +304,50 @@ div.hero--text p {
 button.calltoaction {
   position: relative;
   z-index: 100;
-  padding: 10px 25px;
+  padding: 10px 30px;
   font-size: 1.5em;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
   font-weight: bold;
   text-transform: uppercase;
+  border-radius: 5px;
   border: 0;
   outline: 0;
-  margin-top: 25px;
+  margin-top: 20px;
   color: var(--black);
   background: var(--gold);
   cursor: pointer;
-  transition: letter-spacing .3s linear;
-  border-radius: 3px;
+  transition: letter-spacing 0.3s linear;
 }
 
 button.calltoaction a {
-    text-decoration: none;
-    color: var(--black);
-    padding: 10px 25px;
+  text-decoration: none;
+  color: var(--black);
 }
 
 button.calltoaction:hover {
-    letter-spacing: 10px;
-    position: absolute;
-    z-index: 1;
-    color: #000;
-    transition: all 0.3s linear;
-    border-radius: 3px;
+  letter-spacing: 10px;
+  position: absolute;
+  z-index: 1;
+  color: #000;
+  transition: all 0.3s linear;
 }
 
 button.calltoaction::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 100%;
-    background: var(--gold);
-    transition: all 0.3s linear;
-    border-radius: 3px;
-} 
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: var(--gold);
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
 
 button.calltoaction:hover::before {
-    width: 100%;
-    color: #fff;
-    border-radius: 3px;
+  width: 100%;
+  color: #fff;
 }
 
 /* ---------------- section 1 --------------- */
@@ -360,7 +355,7 @@ button.calltoaction:hover::before {
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 500px;
+  height: 560px;
   padding: 85px 80px 0 100px;
   background: #000;
   background-position: center;
@@ -386,8 +381,8 @@ button.calltoaction:hover::before {
 }
 
 .aboutText > p {
-    color: var(--offwhite);
-  font-size: 1.2em;
+  color: var(--offwhite);
+  font-size: 1.3em;
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: justify;
@@ -426,7 +421,14 @@ button.calltoaction:hover::before {
   justify-content: space-between;
   align-items: center;
   padding: 70px 100px 100px;
-  background: linear-gradient(to top right, #fff, gold, var(--lightgrey), gold, gold);
+  background: linear-gradient(
+    to top right,
+    #fff,
+    gold,
+    var(--lightgrey),
+    gold,
+    gold
+  );
   cursor: default;
 }
 
@@ -438,61 +440,58 @@ button.calltoaction:hover::before {
 .section-2 .section h2 {
   font-size: 2em;
   color: #000;
-  text-align: justify;  
+  text-align: justify;
   font-family: var(--header-text);
 }
 
 .slider {
-    width: 1200px;
-    height: 300px;
-    border-radius: 10px;
-    overflow: hidden;
-    
+  width: 1200px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .slides {
-    width: 500%;
-    height: 300px;
-    display: flex;
-    
+  width: 500%;
+  height: 300px;
+  display: flex;
 }
 
 .slides input {
-    display: none;
+  display: none;
 }
 
 .slide {
-    width: 5%;
-    transition: 2s;
+  width: 5%;
+  transition: 2s;
 }
 
 .slide img {
-    width: 100%;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
-#input1:checked ~ .first {
-    margin-left: 0;
+#radio1:checked ~ .first {
+  margin-left: 0;
 }
-#input2:checked ~ .first {
-    margin-left: -5%;
+#radio2:checked ~ .first {
+  margin-left: -5%;
 }
-#input3:checked ~ .first {
-    margin-left: -10%;
+#radio3:checked ~ .first {
+  margin-left: -10%;
 }
-#input4:checked ~ .first {
-    margin-left: -15%;
+#radio4:checked ~ .first {
+  margin-left: -15%;
 }
-#input5:checked ~ .first {
-    margin-left: -20%;
+#radio5:checked ~ .first {
+  margin-left: -20%;
 }
-#input6:checked ~ .first {
-    margin-left: -25%;
+#radio6:checked ~ .first {
+  margin-left: -25%;
 }
-#input7:checked ~ .first {
-    margin-left: -30%;
+#radio7:checked ~ .first {
+  margin-left: -30%;
 }
-
 
 /* ------- section 3-------- */
 .section-3 {
@@ -503,7 +502,7 @@ button.calltoaction:hover::before {
   padding: 100px 0;
   width: 100%;
   height: auto;
-  background: url(./images/pexels-pixabay-33265.jpg) no-repeat;
+  background: url(/images/pexels-pixabay-33265.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -531,7 +530,7 @@ button.calltoaction:hover::before {
   align-items: center;
   flex-direction: column;
   max-width: 20%;
-  height: auto;
+  height: 300px;
   padding: 0px 25px;
   border-radius: 10px;
   box-shadow: 0px 0 10px 0px var(--gold);
@@ -540,36 +539,36 @@ button.calltoaction:hover::before {
   transition: color 0.1s linear, transform 0.3s ease;
 }
 
-  .card:hover {
-    transform: translateY(-5%);
-    transform: scale(1.05);
-  }
+.card:hover {
+  transform: translateY(-5%);
+  transform: scale(1.05);
+}
 
-  .card:hover p,
-  .card:hover h2 {
-    color: var(--black);
-  }
+.card:hover p,
+.card:hover h2 {
+  color: var(--black);
+}
 
-  .card::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background: var(--gold);
-    transform: scaleY(0);
-    transform-origin: right;
-    transition: transform 0.5s;
-  }
+.card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: var(--gold);
+  transform: scaleY(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
 
-  .card:hover::before {
-    transform: scaleY(1);
-    transform-origin: left;
-    transition: transform 0.5s;
-  }
+.card:hover::before {
+  transform: scaleY(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
 
 .card h2 {
   z-index: 1;
@@ -579,19 +578,19 @@ button.calltoaction:hover::before {
   font-weight: bold;
   text-transform: uppercase;
   font-family: var(--header-text);
-  transition: color .3s ease;
+  transition: color 0.3s ease;
 }
 
 .card p {
   z-index: 1;
   font-size: 1.05em;
   line-height: 1.5;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   font-weight: bold;
   text-align: justify;
-  word-break: keep-all;
+  word-break: wrap;
   font-family: var(--body-text);
-  transition: color .3s ease;
+  transition: color 0.3s ease;
 }
 
 .logoImage {
@@ -601,11 +600,11 @@ button.calltoaction:hover::before {
 
 .card .logoImage img {
   position: relative;
-  padding: 20px 0 0;
-  width: 6rem;
+  padding: 20px 0 20px;
+  width: 4rem;
   float: right;
   bottom: 2px;
-  border-radius: 10px;
+  border-radius: 40%;
 }
 
 /* ---------- section-4 ------------ */
@@ -644,78 +643,76 @@ button.calltoaction:hover::before {
 }
 
 .showcase-text {
-    width: 1500px;
-    height: 300px;
-    background: var(--gold);
-    overflow: hidden;  
+  width: 1500px;
+  height: 300px;
+  background: var(--gold);
+  overflow: hidden;
 }
 
 .showcase-text-hold {
-    width: 500%;
-    height: 300px;
-    display: flex;
-    
+  width: 500%;
+  height: 300px;
+  display: flex;
 }
 
 .section-4holder input {
-    display: none;
+  display: none;
 }
 
 .recipe-text {
-    width: 20%;
-    transition: 2s;
-    padding: 50px;
+  width: 20%;
+  transition: 2s;
+  padding: 50px;
 }
 
 .recipe-text p {
-    font-size: 1.2em;
-    font-family: var(--body-text);
-    line-height: 1.3;
-    letter-spacing: 1px;
+  font-size: 1.2em;
+  font-family: var(--body-text);
+  line-height: 1.3;
+  letter-spacing: 1px;
 }
 
 .showcase-image {
-    width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    overflow: hidden;
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  overflow: hidden;
 }
 .showcase-image-hold {
-    width: 500%;
-    height: 300px;
-    display: flex;
-    background: #000;
-    z-index: 100;
-    overflow: hidden;
+  width: 500%;
+  height: 300px;
+  display: flex;
+  background: #000;
+  z-index: 100;
+  overflow: hidden;
 }
 
 .recipe-image {
-    background: url(./images/pexels-cottonbro-4667152.jpg); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    transition: 2s;
-    z-index: 100;
+  background: url(/images/pexels-cottonbro-4667152.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: 2s;
+  z-index: 100;
 }
 
 #change1:checked ~ .start {
-    margin-left: -60%;
+  margin-left: -60%;
 }
 #change2:checked ~ .start {
-    margin-left: -40%;
+  margin-left: -40%;
 }
-#change3:checked ~  .start {
-    margin-left: -20%;
+#change3:checked ~ .start {
+  margin-left: -20%;
 }
 #change4:checked ~ .start {
-    margin-left: 0%;
+  margin-left: 0%;
 }
-
 
 .section-4holder button {
   position: absolute;
@@ -735,26 +732,25 @@ button.calltoaction:hover::before {
   color: var(--offwhite);
   background: var(--black);
   cursor: pointer;
-  transition: width .3s linear, letter-spacing .3s linear;
-  border-radius: 9px;
+  transition: width 0.3s linear, letter-spacing 0.3s linear;
 }
 
 .section-4holder button::before {
-    content: "";
-    position: absolute;
-    z-index: -100;
-    left: 0;
-    top: 0;
-    width: 0%;
-    height: 100%;
-    border: 0;
-    outline: 0;
-    background: var(--gold);
-    transition: width .3s linear;
-} 
+  content: "";
+  position: absolute;
+  z-index: -100;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: var(--gold);
+  transition: width 0.3s linear;
+}
 
 .section-4holder button:hover::before {
-    width: 100%;
+  width: 100%;
 }
 
 .section-4holder button:hover {
@@ -771,7 +767,7 @@ button.calltoaction:hover::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(./images/pexels-cottonbro-4667152.jpg) no-repeat;
+  background: url(/images/pexels-cottonbro-4667152.jpg) no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -802,7 +798,7 @@ button.calltoaction:hover::before {
 .staffPicsHolder {
   position: relative;
   display: flex;
-/*   flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -850,7 +846,7 @@ button.calltoaction:hover::before {
 
 /* ---------------section - 6------------- */
 .section-6 {
-  position:relative;
+  position: relative;
   background: var(--offwhite);
   width: 100%;
   height: auto;
@@ -885,8 +881,8 @@ button.calltoaction:hover::before {
 }
 
 div.btn button {
-  position: relative; 
-  z-index:  10; 
+  position: relative;
+  z-index: 10;
   margin-top: 20px;
   padding: 15px 25px;
   margin-bottom: 10px;
@@ -904,7 +900,7 @@ div.btn button {
   color: var(--black);
   background: var(--offwhite);
   cursor: pointer;
-  transition: color .03s ease, background 0.3s ease;
+  transition: color 0.03s ease, background 0.3s ease;
 }
 
 div.btn button::before {
@@ -920,8 +916,8 @@ div.btn button::before {
 }
 
 div.btn button:hover::before {
-    width: 100%;
-    border-radius: 4px;
+  width: 100%;
+  border-radius: 4px;
 }
 
 /* div.btn button:hover {
@@ -1007,11 +1003,11 @@ footer nav p:hover {
 }
 
 div.contact .contactlink a {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 div.contact .contactlink a:hover {
-    transform: translateX(-2%);
+  transform: translateX(-2%);
 }
 
 .media {
@@ -1031,7 +1027,7 @@ div.contact .contactlink a:hover {
   justify-content: center;
   text-decoration: none;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-             -6px -6px 10px -1px rgba(225, 225, 225, 0.7);
+    -6px -6px 10px -1px rgba(225, 225, 225, 0.7);
   border: 1px solid rgba (0, 0, 0, 0);
   transition: transform 0.5s ease;
 }
@@ -1044,10 +1040,9 @@ div.contact .contactlink a:hover {
 
 .media a:hover {
   box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-              inset -4px -4px 6px -1px rgba(225, 225, 225, 0.7),
-              -0.5px -0.5px 0px rgba(225, 225, 225, 1),
-              0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 
-              0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    inset -4px -4px 6px -1px rgba(225, 225, 225, 0.7),
+    -0.5px -0.5px 0px rgba(225, 225, 225, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba (0, 0, 0, 0.01);
   transform: translateY(2px);
 }
@@ -1056,217 +1051,219 @@ div.contact .contactlink a:hover {
   transform: scale(0.9);
 }
 
-.media a:hover .fa-facebook {
+.media a .fa-facebook {
   color: #3b5998;
 }
 
-.media a:hover .fa-instagram {
+.media a .fa-instagram {
   color: #f14843;
 }
 
-.media a:hover .fa-whatsapp {
+.media a .fa-whatsapp {
   color: #4fce5d;
 }
 
-.media a:hover .fa-twitter {
+.media a .fa-twitter {
   color: #00acee;
 }
 
-.media a:hover .fa-youtube {
+.media a .fa-youtube {
   color: #f00;
 }
 
 .copyright {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 14px;
-    font-family: var(--body-text);
-    background: var(--black);
-    color: var(--offwhite);
-    cursor: default;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: var(--body-text);
+  background: var(--black);
+  color: var(--offwhite);
+  cursor: default;
 }
 
 /* ===============Registration Form===================== */
 /* containerDiv--------------- */
 .container {
-    position: fixed;
-    top: 0px;
-    left: 12%;
-    z-index: 1000;
-    width: 75%;
-    height: auto;
-    padding: 0px 20px;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.9);
-    color: var(--offwhite);
-    display: flex;
-    flex-direction: column;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s ease;
+  position: fixed;
+  top: 0px;
+  left: 12%;
+  z-index: 1000;
+  width: 75%;
+  height: auto;
+  padding: 0px 20px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  color: var(--offwhite);
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease;
 }
 
 .container.active {
-    top: 50px;
-    visibility: visible;
-    opacity: 1;
-    transition: 0.5s ease;
+  top: 50px;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s ease;
 }
-
 
 /* container-title---------------- */
 .title h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    position: relative;
-    font-family: var(--header-text);
-    margin: 25px 0 0;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: relative;
+  font-family: var(--header-text);
+  margin: 25px 0 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* container form */
-form .User-details{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+form .User-details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 /* user-details .input-box------------- */
-form .User-details .input-box{
-    width: 60%;
-    float: left;
-    margin: 0 5px;
+form .User-details .input-box {
+  width: 60%;
+  float: left;
+  margin: 0 5px;
 }
 
-form .User-details .input-box:nth-of-type(2n - 1){
-    width: 35%;
-    float: left;
-    margin: 0 10px;
+form .User-details .input-box:nth-of-type(2n - 1) {
+  width: 35%;
+  float: left;
+  margin: 0 10px;
 }
 
 /* user-details input-box .details */
 div.input-box span {
-    display: block;
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 10px;
-    font-family: var(--body-text);
-    margin: 20px 0 10px;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  font-family: var(--body-text);
+  margin: 20px 0 10px;
 }
 
-.User-details .input-box input{
-    height: 30px;
-    width: 100%;
-    outline: none;
-    border-radius: 5px;
-    padding-left: 15px;
-    font-size: 15px;
-    transition: all 0.3s ease;
-    border: 0;
-    outline: 0;
+.User-details .input-box input {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  border: 0;
+  outline: 0;
 }
 
 .User-details .input-box input:focus {
-    border: 0;
-    outline: 0;
+  border: 0;
+  outline: 0;
 }
 
 div.gender {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
 }
 
-div.gender label, div.training label {
-    font-size: 18px;
-    font-family: var(--body-text);
-    margin-top: 10px;
+div.gender label,
+div.training label {
+  font-size: 18px;
+  font-family: var(--body-text);
+  margin-top: 10px;
 }
 
-.gender input[type='radio'] {
-    width: 15px;
-    display: inline;
-    vertical-align: middle;
-    margin: 10px 10px 0 20px;
-    
+.gender input[type="radio"] {
+  width: 15px;
+  display: inline;
+  vertical-align: middle;
+  margin: 10px 10px 0 20px;
 }
 
 div.training {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 div.training select {
-    margin: 10px 0 0 20px;
-    width: 100%;
-    border: 0;
-    outline: 0;
-    border-radius: 5px;
-    height: 30px;
-    font-size: 16px;
-    font-weight: 500;
-    padding-left: 10px;
+  margin: 10px 0 0 20px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
 }
 
 div.information {
-    width: 96.5%;
-    margin-top: 30px;
+  width: 96.5%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
-div.information  label {
-    font-size: 18px;
-    padding: 10px 20px;
+div.information label {
+  max-width: 100%;
+  font-size: 18px;
+  padding: 10px 20px;
 }
 
 textarea {
-    margin: 10px 70px 20px 20px;
-    max-width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: var(--body-text);
-    border-radius: 5px;
+  margin: 10px 70px 20px 20px;
+  min-width: 100%;
+  max-height: 200px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  border-radius: 5px;
 }
 
 textarea:focus {
-    border: 0;
-    outline: 0;
+  border: 0;
+  outline: 0;
 }
-
 
 /* button--------------------- */
-form .button{
-    margin: 10px 15px 35px;
+form .button {
+  margin: 10px 15px 35px;
 }
 
-form .button button{
-    height: 100%;
-    width: 100%;
-    outline: none;
-    color: var(--offwhite);
-    border: none;
-    padding: 7px;
-    margin-left: 5px;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    background: linear-gradient(-135deg, #09ce09, #09ce09);
-    transition: 0.5s ease;
-    cursor: pointer;
+form .button button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: var(--offwhite);
+  border: none;
+  padding: 7px;
+  margin-left: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: linear-gradient(-135deg, #09ce09, #09ce09);
+  transition: 0.5s ease;
+  cursor: pointer;
 }
 
-form .button button:hover{
-    background: linear-gradient(135deg, #1ce71c, #1ce71c);    
+form .button button:hover {
+  background: linear-gradient(135deg, #1ce71c, #1ce71c);
 }
 
 /* #registration-confirmed {
@@ -1336,57 +1333,57 @@ div.closemark{
 /*===================== jump in effect========================= */
 
 div.right {
-    transform: translateX(200%);
-    transition: transform 1s ease;
+  transform: translateX(200%);
+  transition: transform 1s ease;
 }
 
 div.up {
-    transform: translateY(30%);
-    transition: transform .5s ease;
+  transform: translateY(30%);
+  transition: transform 0.5s ease;
 }
 
 div.left {
-    transform: translateX(-250%);
-    transition: transform 1s ease;
+  transform: translateX(-250%);
+  transition: transform 1s ease;
 }
 
 div.show {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 #navtabs {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    z-index: 1000000000;
-    background: var(--black);
-    display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000000000;
+  background: var(--black);
+  display: none;
 }
 
 #navtabs nav {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 20px;
-    margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  margin-top: 70px;
 }
 
 #navtabs nav a {
-    padding: 13px;
-    text-decoration: none;
-    color: #fff;
-    font-family: var(--body-text);
-    font-size: 25px;
-    font-weight: bold;
-    display: block;
-    text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--body-text);
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
 }
 
 #navtabs nav a:hover {
-    background: var(--gold);
+  background: var(--gold);
 }
