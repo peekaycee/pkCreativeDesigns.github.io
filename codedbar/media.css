@@ -1,4 +1,4 @@
-/* ---------------Home Page Responsiveness ------------------------ */
+ /* ---------------Home Page Responsiveness ------------------------ */
 @media only screen and (min-width: 1008px) and (max-width: 1200px) {
   div.navigation {
     width: 55%;
@@ -255,10 +255,12 @@
     width: 100%;
 /*     height: 300px; */
     left: 30px;
-    margin-top: 20px;.tags a{
+    margin-top: 20px;
+  }
+    .tags a{
     z-index: 100;
     }
-  }
+  
  
   div.btn button::before {
     width: 100%;
@@ -282,312 +284,13 @@
   }
   div#open.menubtn {
     display: block;
-    top: 50px;
-    right: 30px;
-  }
-  
-  div#close.menubtn-close {
-    top: 50px;
-    right: 30px;
-  }
-  
-  .menubtn i {
-    font-size: 25px;
-  }
-  .hero-container {
-    background-attachment: scroll;
-    height: 100vh;
-/* ---------------Home Page Responsiveness ------------------------ */
-@media only screen and (min-width: 1008px) and (max-width: 1200px) {
-  div.navigation {
-    width: 55%;
-    padding-right: 25px;
-  }
-  div.navigation button {
-    margin: 15px;
-  }
-  div.logo {
-    width: 200px;
-  }
-  div.logo img {
-    width: 100px;
-    margin-top: 20px;
-  }
-  .frontpic {
-    max-width: 85%;
-  }
-  .image {
-    height: 22em;
-  }
-  .card {
-    max-width: 23%;
-  }
-  .card .logoImage img {
-    width: 5rem;
-  }
-  
-  .section-4holder {
-    margin-top: 20px;
-  }
-  .section-5 {
-    background-attachment: scroll;
-    height: 550px;
-  }
-  .section-5 h2 {
-    font-size: 1.7em;
-    padding-left: 10px;
-  }
-  .staffPicsHolder {
-    top: 5px;
-  }
-  .staffpics {
-    margin: 10px 20px;
-    width: 25%;
-  }
-  .section-6 {
-    padding: 40px;
-  }
-  .registerholder {
-    font-size: 1.2em;
-    max-width: 70%;
-    padding: 15px 20px;
-    margin-top: -130px;
-  }
-  div.btn button {
-    padding: 5px 10px;
-    font-size: 0.9em;
-  }
-  .footer iframe {
-    height: 300px;
-    max-width: 400px;
-    text-align: justify;
-  }
-}
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
-  div.logo {
-    left: 40px;
-  }
-  div.logo a img {
-    width: 65px;
-    margin-top: 14px;
-  }
-  div.navigation {
-    display: none;
-  }
-  div.menubtn {
-    display: block;
-  }
-  header {
-    padding-left: 50px;
-    background: transparent;
-  }
-  .hero-container {
-    background-attachment: scroll;
-  }
-  .hero--text {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .section-1 {
-    height: 350px;
-    padding: 40px;
-  }
-  .aboutText > h2 {
-    font-size: 1.7em;
-  }
-  .aboutText > p {
-    font-size: 1em;
-  }
-  .section-2 > div > h2 {
-    font-size: 1.7em;
-     margin: 30px 15px 10px;
-  }
- 
-  .section-2 {
-    height: auto;
-    padding: 5px 30px 30px;
-    font-size: 1em;
-    background: #000;
-    background: var(--gold);
-  }
-  
-  .slider {
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-    overflow: hidden;
-    
-}
-.slides {
-    width: 500%;
-    height: 500px;
-    display: flex;
-    
-}
-.slides input {
-    display: none;
-}
-.slide {
-    width: 20%;
-    transition: 2s;
-}
-.slide img {
-    width: 500px;
-    height: 500px;
-}
-  #input1:checked ~ .first {
-    margin-left: 0;
-}
-#input2:checked ~ .first {
-    margin-left: -20%;
-}
-#input3:checked ~ .first {
-    margin-left: -40%;
-}
-#input4:checked ~ .first {
-    margin-left: -60%;
-}
-#input5:checked ~ .first {
-    margin-left: -80%;
-}
-#input6:checked ~ .first {
-    margin-left: -100%;
-}
-#input7:checked ~ .first {
-    margin-left: -120%;
-}
-#input8:checked ~ .first {
-    margin-left: -140%;
-}
-#input9:checked ~ .first {
-    margin-left: -160%;
-}
-#input10:checked ~ .first {
-    margin-left: -180%;
-}
-  .section-3 {
-    display: block;
-    padding: 40px;
-    background-attachment: scroll;
-  }
-  .card {
-    max-width: 100%;
-    margin-bottom: 40px;
-  }
-  .section-4 {
-    height: 350px;
-    padding: 0 50px;
-  }
-  section.section-4 h2 {
-    font-size: 1.7em; 
-  }
-  .section-4holder {
-    max-width: 100%;
-    height: 15em;
-  }
-  .recip-text {
-    font-size: 1.25em;
-    line-height: 1.1;
-  }
-  .showcase {
-    height: 300px;
-  }
-  .section-4holder button {
-    padding: 7px 12px;
-    font-size: 0.5;
-    margin-top: 0px;
-  }
-  .imagerecip {
-    background-position: -240px -100px;
-  }
-  .section-5 {
-    background-attachment: scroll;
-    height: 400px;
-  }
-  .section-5  .section h2 {
-    margin-top: 20px;
-  }
-  
-  .staffPicsHolder {
-    top: 5px;
-    margin-bottom: 30px;
-  }
-  .staffpics {
-    margin: 20px 30px;
-    width: 43%;
-    
-  }
-  .section-6 .registerholder div.btn button {
-    padding: 10px 15px;
-    font-size: 1em;
-  }
-  .section-6 {
-    background-color: var(--offwhite);
-  }
-  .section-6 .registerholder {
-    max-width: 80%;
-    margin: 0px;
-    font-size: 1.2em;
-    padding: 30px 50px;
-  }
-  .footer {
-    padding: 0 40px 40px;
-  }
-  .footer iframe,
-  .location {
-    display: none;
-  }
-  .footer h3 {
-    font-size: 1em;
-  }
-  .footer nav a {
-    font-size: 0.9em;
-    letter-spacing: 0;
-    text-align: justify;
-  }
-}
-@media only screen and (min-width: 641px) and (max-width: 720px) and (orientation: landscape) {
-  
-}
-@media only screen and (max-width: 640px) {
-  div.logo {
-    width: 100%;
-/*     height: 300px; */
-    left: 30px;
-    margin-top: 20px;.tags a{
-    z-index: 100;
-    }
-  }
- 
-  div.btn button::before {
-    width: 100%;
-  }
-  div.logo a img {
-    width: 70px;
-    top: 0px;
-  }
-  header {
-    display: none;
-  }
-  div#open.menubtnM {
-    display: block;
     top: 15px;
     right: 20px;
   }
   
-  div#close.menubtnM-close {
+  div#close.menubtn-close {
     top: 15px;
     right: 20px;
-  }
-  div#open.menubtn {
-    display: block;
-    top: 50px;
-    right: 30px;
-  }
-  
-  div#close.menubtn-close {
-    top: 50px;
-    right: 30px;
   }
   
   .menubtn i {
@@ -599,9 +302,8 @@
   }
 
   .hero--text {
-    padding: 150px 30px;
-    padding: 50px 30px;
-    max-width: 100%;
+    padding: 100px 30px;
+    width: 100%;
   }
   div.hero--text h1 {
     font-size: 3.5em;
@@ -867,7 +569,7 @@
   }
   footer div.contact {
     width: 100%;
-    margin-top: 250px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
