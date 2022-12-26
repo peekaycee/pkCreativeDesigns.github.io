@@ -274,22 +274,22 @@
   }
   div#open.menubtnM {
     display: block;
-    top: 15px;
+    top: 50px;
     right: 20px;
   }
   
   div#close.menubtnM-close {
-    top: 15px;
+    top: 50px;
     right: 20px;
   }
   div#open.menubtn {
     display: block;
-    top: 15px;
+    top: 50px;
     right: 20px;
   }
   
   div#close.menubtn-close {
-    top: 15px;
+    top: 50px;
     right: 20px;
   }
   
@@ -302,8 +302,8 @@
   }
 
   .hero--text {
-    padding: 100px 30px;
-    width: 100%;
+    padding: 220px 30px;
+    max-width: 100%;
   }
   div.hero--text h1 {
     font-size: 3.5em;
