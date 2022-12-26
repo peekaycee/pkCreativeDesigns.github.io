@@ -563,7 +563,7 @@
   .email {
     font-size: 1em;
   } 
- footer div.nav {
+ footer nav .navs {
    width: 50%;
    float: left;
   }
