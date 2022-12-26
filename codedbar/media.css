@@ -606,10 +606,11 @@
     } 
     .menubtnM {
         top: 15px;
+      right: 15px;
     }
     .menubtnM-close{
         top: 15px;
-        right: 30px;
+        right: 15px;
     }
     .category a {
         display: none;
