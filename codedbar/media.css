@@ -802,7 +802,11 @@ form .button button{
 
 @media only screen and (max-width: 640px) {
   .container {
-    height: 85vh;
+   position: absolute;
+    top: 0;
+   left: 0;
+   width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
