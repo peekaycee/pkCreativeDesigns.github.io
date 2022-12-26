@@ -271,12 +271,12 @@
 
   div#open.menubtn {
     display: block;
-    top: 20px;
+    top: 50px;
     right: 20px;
   }
   
   div#close.menubtn-close {
-    top: 20px;
+    top: 50px;
     right: 20px;
   }
   
@@ -702,8 +702,8 @@
       }
       div.logoS a img {
         width: 65px;
-        margin-top: -55px;
-        left: -15px;
+        margin-top: -15px;
+        left: -20px;
       }
    .menubtnS {
         top: 20px;
