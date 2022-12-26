@@ -519,6 +519,7 @@
   
   /* ==================== footer Responsiveness ====================== */
   footer.footer {
+   display: block;
     width: 100%;
     padding: 100px 30px 20px;
     height: auto;
@@ -548,18 +549,18 @@
   .email {
     font-size: 1em;
   } 
- footer div.navs {
+ footer.footer div.navs {
    width: 50%;
    float: left;
   }
-  footer div.contact {
+  footer.footer div.contact {
     width: 100%;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
-  footer div.contact a {
+  footer.footer div.contact a {
     text-decoration: none;
   }
   .media a .fa-facebook {
