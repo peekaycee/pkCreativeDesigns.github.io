@@ -7,10 +7,10 @@
   div.navigation button {
     margin: 15px;
   }
-  div.logo {
+  div.logoS {
     width: 200px;
   }
-  div.logo img {
+  div.logoS img {
     width: 100px;
     margin-top: 20px;
   }
@@ -65,17 +65,17 @@
   }
 }
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
-  div.logo {
+  div.logoS {
     left: 40px;
   }
-  div.logo a img {
+  div.logoS a img {
     width: 65px;
     margin-top: 14px;
   }
   div.navigation {
     display: none;
   }
-  div.menubtn {
+  div.menubtnS {
     display: block;
   }
   header {
@@ -253,14 +253,14 @@
 
 
 @media only screen and (max-width: 640px) {
- div.logo {
+ div.logoS {
     width: 100%;
     height: 300px;
     left: 30px;
     margin-top: 20px;
   }
   
-  div.logo a img {
+  div.logoS a img {
     width: 70px;
     top: 0px;
   }
@@ -269,18 +269,18 @@
     display: none;
   }
 
-  div#open.menubtn {
+  div#open.menubtnS {
     display: block;
-    top: 50px;
-    right: 30px;
+    top: 20px;
+    right: 20px;
   }
   
-  div#close.menubtn-close {
-    top: 50px;
-    right: 30px;
+  div#close.menubtnS-close {
+    top: 20px;
+    right: 20px;
   }
   
-  .menubtn i {
+  .menubtnS i {
     font-size: 25px;
   }
   .hero-container {
@@ -633,11 +633,11 @@
   
 /* ---------------Service Responsiveness------------------- */
 @media only screen and (min-width: 1008px) and (max-width: 1200px) {
-    .navigbtn {
+    .navigbtnS {
         top: 15px;
         right: 10px;
       }
-     .menubtn i {
+     .menubtnS i {
         font-size: 25px;
      }
       div.logoS a img {
@@ -667,7 +667,7 @@
         top: 15px;
         right: 15px;
       }
-      .menubtn i {
+      .menubtnS i {
         font-size: 25px;
       }
       div.logoS a img {
@@ -705,7 +705,14 @@
         width: 65px;
         margin-top: -10px;
         left: -35px;
-        
+      }
+   .menubtnS {
+        top: 20px;
+        right: 20px;
+      }
+   .menubtnS-close {
+        top: 20px;
+        right: 20px;
       }
     .service-container {
         padding: 80px 0 20px;
@@ -950,213 +957,5 @@
     padding: 30px;
     box-shadow: 0 0 0 0;
   }
-  
-  /* ==================== footer Responsiveness ====================== */
-  footer.footer {
-    width: 100%;
-    padding: 100px 30px;
-    margin-top: 10px;
-    height: auto;
-    overflow: hidden;
-    display: block;
-  }
-  .footer iframe,
-  .location {
-    display: none;
-  }
-  .footer h3 {
-    font-size: 1.1em;
-  }
-  .footer nav a {
-    font-size: 1em;
-    letter-spacing: 0;
-    text-align: justify;
-    text-decoration: none;
-  }
-  .footer nav a:hover,
-  .footer nav p:hover {
-    transform: translateX(0px);
-    border: 0;
-  }
-  .phoneNumber {
-    font-size: 1em;
-  }
-  .email {
-    font-size: 1em;
-  } 
- footer div.nav {
-   width: 50%;
-   float: left;
-  }
-  footer div.contact {
-    width: 100%;
-    margin-top: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  footer div.contact a {
-    text-decoration: none;
-  }
-  .media a .fa-facebook {
-  color: #3b5998;
+ 
 }
-.media a .fa-instagram {
-  color: #f14843;
-}
-.media a .fa-whatsapp {
-  color: #4fce5d;
-}
-.media a .fa-twitter {
-  color: #00acee;
-}
-.media a .fa-youtube {
-  color: #f00;
-}
-}
-/* ----------------Menu responsiveness------------------- */
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
-    .headline {
-        font-size: 1.8em;
-    }
-    .category a {
-        margin: 7px 30px;
-    }
-    .tags a {
-        padding: 5px 20px;
-    }
-  }
-  
-  @media only screen and (max-width: 640px) {
-    .headline {
-        font-size: 1.5em;
-    }
-    
-    div.left,  div.right {
-        transform: translateX(0%);
-    }
-    #smoothies,#food, #drinks {
-        margin-top: -70px;
-    } 
-    .menubtn {
-        top: 15px;
-    }
-    .menubtn-close{
-        top: 15px;
-        right: 30px;
-    }
-    .category a {
-        display: none;
-    }
-    .tags p {
-        font-size: 25px;
-    }
-    .tags a {
-        padding: 5px 10px;
-        font-size: 20px;
-    }
-    .menu{
-        display: block;
-    }
-    .menulist {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-  }
-  
-/* ---------------Service Responsiveness------------------- */
-@media only screen and (min-width: 1008px) and (max-width: 1200px) {
-    .navigbtn {
-        top: 15px;
-        right: 10px;
-      }
-     .menubtn i {
-        font-size: 25px;
-     }
-      div.logoS a img {
-        width: 65px;
-        margin-top: -12px;
-        
-      }
-      
-    .service-container .service-box {
-        width: calc(50% - 50px);
-        margin: 30px 0 20px;
-    }
-    .heading {
-        top: 10px;
-      }
-  }
-  .heading::after {
-    margin-left: -10px;
-  }
-  div.heading h1 {
-    font-size: 25px;
-    margin-top: 15px;
-  }
-  
-  @media only screen and (min-width: 641px) and (max-width: 1007px) {
-    .navigbtn {
-        top: 15px;
-        right: 15px;
-      }
-      .menubtn i {
-        font-size: 25px;
-      }
-      div.logoS a img {
-        width: 60px;
-        margin-top: 0px;
-      }
-    .service-container .service-box {
-        width: calc(50% - 20px);
-        margin: 20px 0;
-        padding: 70px 20px 30px;
-    }
-    div.heading h1 {
-        font-size: 25px;
-        margin-top: 35px;
-      }
-    .service-box h2 {
-        font-size: 3em;
-        left: 20px;
-        top: 70px;
-    }
-    .service-box:hover h2 {
-        transform: translateY(-95%);
-    } 
-    .heading {
-        top: 10px;
-      }
-  }
-  
-  @media only screen and (max-width: 640px) {
-    .navigbtn {
-        top: 15px;
-        right: 15px;
-      }
-      div.logoS a img {
-        width: 65px;
-        margin-top: -10px;
-        left: -35px;
-        
-      }
-    .service-container {
-        padding: 80px 0 20px;
-    }
-    .service-container .service-box {
-        width: 100%;
-        margin: -5px 0;
-        padding: 70px 20px 25px;
-    }
-    .service-box h2 {
-        font-size: 2.5em;
-        left: 20px;
-        top: 70px;
-    }
-    .service-box:hover h2 {
-        transform: translateY(-110%);
-    } 
-    .heading {
-        top: 80px;
-      }
-  }
