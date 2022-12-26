@@ -633,7 +633,7 @@
   
 /* ---------------Service Responsiveness------------------- */
 @media only screen and (min-width: 1008px) and (max-width: 1200px) {
-    .navigbtnS {
+    .navigbtn {
         top: 15px;
         right: 10px;
       }
@@ -643,7 +643,6 @@
       div.logoS a img {
         width: 65px;
         margin-top: -12px;
-        
       }
       
     .service-container .service-box {
@@ -703,8 +702,8 @@
       }
       div.logoS a img {
         width: 65px;
-        margin-top: -10px;
-        left: -35px;
+        margin-top: -55px;
+        left: -15px;
       }
    .menubtnS {
         top: 20px;
