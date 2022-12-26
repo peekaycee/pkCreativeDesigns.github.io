@@ -578,7 +578,7 @@
   color: #f00;
 }
  #navtabs nav a {
-  padding: 15px;
+  padding: 14px;
 }
 /* ----------------Menu responsiveness------------------- */
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
