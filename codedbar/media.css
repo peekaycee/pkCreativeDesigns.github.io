@@ -331,13 +331,13 @@
   }
   
   .slider {
-    width: 450px;
+    width: 350px;
     height: 300px;
     border-radius: 10px;
     overflow: hidden;
 }
 .slides {
-    width: 500%;
+    width: 2000%;
     height: 300px;
     display: flex;
 }
@@ -345,42 +345,42 @@
     display: none;
 }
 .slide {
-    width: 20%;
+    width: 5%;
     transition: 2s;
 }
 .slide img {
-    width: 450px;
+    width: 100%;
     height: 300px;
 }
   #input1:checked ~ .first {
     margin-left: 0;
 }
 #input2:checked ~ .first {
-    margin-left: -80%;
+    margin-left: -5%;
 }
 #input3:checked ~ .first {
-    margin-left: -160%;
+    margin-left: -10%;
 }
 #input4:checked ~ .first {
-    margin-left: -240%;
+    margin-left: -15%;
 }
 #input5:checked ~ .first {
-    margin-left: -320%;
+    margin-left: -20%;
 }
 #input6:checked ~ .first {
-    margin-left: -400%;
+    margin-left: -25%;
 }
 #input7:checked ~ .first {
-    margin-left: -480%;
+    margin-left: -30%;
 }
 #input8:checked ~ .first {
-    margin-left: -560%;
+    margin-left: -35%;
 }
 #input9:checked ~ .first {
-    margin-left: -640%;
+    margin-left: -40%;
 }
 #input10:checked ~ .first {
-    margin-left: -720%;
+    margin-left: -45%;
 }
   .section-2 > div > h2 {
     display: none;
