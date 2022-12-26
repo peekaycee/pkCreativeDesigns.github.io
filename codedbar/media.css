@@ -250,6 +250,8 @@
 @media only screen and (min-width: 641px) and (max-width: 720px) and (orientation: landscape) {
   
 }
+
+
 @media only screen and (max-width: 640px) {
  div.logo {
     width: 100%;
@@ -287,7 +289,7 @@
   }
 
   .hero--text {
-    padding: 150px 30px;
+    padding: 160px 30px;
     max-width: 100%;
   }
   div.hero--text h1 {
@@ -575,6 +577,8 @@
 .media a .fa-youtube {
   color: #f00;
 }
+ #navtabs nav a {
+  padding: 15px;
 }
 /* ----------------Menu responsiveness------------------- */
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
