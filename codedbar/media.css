@@ -580,6 +580,8 @@
  #navtabs nav a {
   padding: 14px;
 }
+
+}
 /* ----------------Menu responsiveness------------------- */
 @media only screen and (min-width: 641px) and (max-width: 1007px) {
     .headline {
@@ -660,7 +662,7 @@
     font-size: 25px;
     margin-top: 15px;
   }
-  
+}  
   @media only screen and (min-width: 641px) and (max-width: 1007px) {
     .navigbtn {
         top: 15px;
@@ -731,10 +733,8 @@
     } 
     .heading {
         top: 80px;
-      }
-  }
-    font-size: 3.5em;
-  }
+        font-size: 3.5em;
+    }
   div.hero--text h3 {
     font-size: 1.7em;
   }
@@ -956,5 +956,4 @@
     padding: 30px;
     box-shadow: 0 0 0 0;
   }
- 
 }
