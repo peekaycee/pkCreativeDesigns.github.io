@@ -603,7 +603,7 @@
     }
     
     div.left,  div.right {
-        transform: translateX(0%);
+        transform: translateX(0);
     }
     #smoothies,#food, #drinks {
         margin-top: -70px;
@@ -631,6 +631,7 @@
         flex-direction: column;
     }
     .menulist {
+      display: block;
         width: 100%;
         margin-bottom: 30px;
     }
