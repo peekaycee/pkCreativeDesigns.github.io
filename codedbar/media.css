@@ -627,7 +627,8 @@
         font-size: 20px;
     }
     .menu{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     .menulist {
         width: 100%;
