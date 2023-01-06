@@ -757,7 +757,14 @@ button.calltoaction:hover::before {
   color: var(--black);
   letter-spacing: 10px;
 }
+.section-4 a  {
+  color: var(--offwhite);
+  text-decoration: none;
+}
 
+.section-4 button:hover a  {
+  color: var(--black);
+}
 /* --------------------section-5------------ */
 .section-5 {
   position: relative;
@@ -924,6 +931,11 @@ div.btn button:hover::before {
   color: var(--black);
   background: var(--gold);
 } */
+
+.section-6 button a {
+  color: var(--black);
+  text-decoration: none;
+}
 
 /* ------------------ footer ----------------- */
 .footer {
