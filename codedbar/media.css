@@ -253,7 +253,8 @@
      width: 50px;
  } 
  .hero--text {
-      padding: 100px 70px ;
+      padding: 80px 30px;
+      max-width: 80%;
  }
  div.hero--text h1 {
       font-size: 4em;
