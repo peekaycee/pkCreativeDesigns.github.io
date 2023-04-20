@@ -267,6 +267,12 @@
  div.hero--text p {
       font-size: 0.9em;
  }
+  .aboutText > p {
+      margin-bottom: 10px;
+ }
+ .frontpic {
+ margin-top: 100px;
+ }
   
  
  
