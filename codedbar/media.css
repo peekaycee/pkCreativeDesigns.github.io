@@ -267,6 +267,10 @@
  div.hero--text p {
       font-size: 0.9em;
  }
+ 
+ .section-1 {
+      height: 580px; 
+ }
   .aboutText .section h2 {
       margin-bottom: 10px;
  }
