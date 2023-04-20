@@ -275,9 +275,11 @@
       margin-bottom: 10px;
  }
  .frontpic {
- margin-top: 80px;
+     margin-top: 80px;
  }
-  
+ .copyright {
+     font-size: 11px;
+ }
  
  
 }
