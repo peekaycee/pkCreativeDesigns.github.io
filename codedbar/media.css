@@ -248,7 +248,25 @@
   }
 }
 @media only screen and (min-width: 641px) and (max-width: 720px) and (orientation: landscape) {
+ div.logo{
+     left:30px;
+     width: 50px;
+ } 
+ .hero--text {
+      padding: 100px 70px ;
+ }
+ div.hero--text h1 {
+      font-size: 4em;
+ }
+ div.hero--text h3 {
+      font-size: 1.8em;
+ }
+ div.hero--text p {
+      font-size: 0.9em;
+ }
   
+ 
+ 
 }
 
 
