@@ -267,11 +267,11 @@
  div.hero--text p {
       font-size: 0.9em;
  }
-  .aboutText > p {
+  .aboutText .section h2 {
       margin-bottom: 10px;
  }
  .frontpic {
- margin-top: 100px;
+ margin-top: 80px;
  }
   
  
