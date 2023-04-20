@@ -250,7 +250,7 @@
 @media only screen and (min-width: 641px) and (max-width: 720px) and (orientation: landscape) {
  div.logo{
      left:30px;
-     width: 50px;
+     width: 40px;
  } 
  .hero--text {
       padding: 65px 30px;
@@ -258,11 +258,11 @@
  }
  div.hero--text h1 {
       font-size: 4em;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
  }
  div.hero--text h3 {
       font-size: 1.8em;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
  }
  div.hero--text p {
       font-size: 0.9em;
