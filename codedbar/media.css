@@ -302,6 +302,7 @@
   }
  .section-4holder button {
     border-radius: 10px;
+    background: var(--gold);
  }
  
  
