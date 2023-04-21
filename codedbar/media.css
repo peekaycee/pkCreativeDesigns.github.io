@@ -330,7 +330,9 @@
  .recipe-text p {
      margin-bottom: 10px;
  }
-
+ .navtabs nav a{
+     font-size: 1em;
+ }
  
 
 }
