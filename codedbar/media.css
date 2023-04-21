@@ -344,7 +344,7 @@
  .menubtn i, .menubtn-close i {
     font-size: 20px;
  }
- .take-out {
+ #navtabs nav .take-out {
     display: none;
  }
  
