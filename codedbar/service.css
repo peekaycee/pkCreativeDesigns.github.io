@@ -430,6 +430,12 @@ form .button button:hover{
 #navtabs nav a:hover {
     background: var(--gold);
 }
+ .menubtn, .menubtn-close {
+     top: 20px;
+ }
+ .menubtn i, .menubtn-close i {
+    font-size: 20px;
+ }
 
 
 
