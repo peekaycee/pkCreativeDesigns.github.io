@@ -740,6 +740,10 @@ div.roll-in {
  #navtabs nav .take-out {
     display: none;
  }
- 
+  
+ .orderlist p3, .orderlist p {
+      font-size: 0.8em;
+      text-align: center;
+  }
 
 }
