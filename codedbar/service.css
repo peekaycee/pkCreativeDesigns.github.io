@@ -285,12 +285,12 @@ div.input-box span {
  }
  .menubtnS, 
  .menubtnS-close {
-     top: 20px;
+     top: 25px;
      right: 30px;
  }
  .menubtnS i, 
  .menubtnS-close i {
-    font-size: 20px;
+    font-size: 30px;
  }
  #navtabs nav .take-out {
     display: none;
