@@ -274,6 +274,28 @@ div.input-box span {
     outline: 0;
 }
 
+@media only screen and (min-width: 641px) and (max-width: 720px) and (orientation: landscape) {
+ #navtabs nav a{
+     font-size: 18px;
+     padding: 15px;
+ }
+  #navtabs nav {
+     padding: 10px;
+     margin-top: 35px;
+ }
+ .menubtn, .menubtn-close {
+     top: 20px;
+ }
+ .menubtn i, .menubtn-close i {
+    font-size: 20px;
+ }
+ #navtabs nav .take-out {
+    display: none;
+ }
+ 
+
+}
+
 .User-details .input-box input:focus {
     border: 0;
     outline: 0;
