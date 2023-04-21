@@ -284,7 +284,8 @@ div.input-box span {
      margin-top: 35px;
  }
  .menubtn, .menubtn-close {
-     top: 20px;
+     top: 15px;
+     right: 12px;
  }
  .menubtn i, .menubtn-close i {
     font-size: 20px;
@@ -292,6 +293,11 @@ div.input-box span {
  #navtabs nav .take-out {
     display: none;
  }
+ .logoS {
+    width: 40px;
+    margin-left: 10px;
+ }
+ 
  
  }
 
