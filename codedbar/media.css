@@ -293,12 +293,12 @@
  }
  
   .section-5  .section h2 {
-    margin-top: 20px;
+    margin-top: -20px;
   }
  
   .staffpics {
-    margin: 20px 5px;
-    width: 20%;
+    margin: 20px 15px;
+    width: 30%;
     
   }
  
