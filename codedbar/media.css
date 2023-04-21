@@ -340,6 +340,7 @@
  }
  .menubtn, .menubtn-close {
      top: 20px;
+     right: 35px;
  }
  .menubtn i, .menubtn-close i {
     font-size: 20px;
