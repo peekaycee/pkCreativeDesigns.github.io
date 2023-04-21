@@ -289,16 +289,15 @@
  .staffPicsHolder{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
  }
  
   .section-5  .section h2 {
-    margin-top: -20px;
+    margin-top: -10px;
   }
  
   .staffpics {
     margin: 20px 15px;
-    width: 30%;
+    width: 20%;
     
   }
  .section-4holder button {
