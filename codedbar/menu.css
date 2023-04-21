@@ -285,6 +285,7 @@ div#arrow-up a {
   padding: 10px;
   font-family: var(--body-text);
   color: var(--offwhite);
+  text-align: center;
 }
 
 .tags a {
