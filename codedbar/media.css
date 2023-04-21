@@ -347,10 +347,11 @@
  #navtabs nav .take-out {
     display: none;
  }
- .service-box {
-    height: 150px;
+ 
+ .heading {
+       display: none;
  }
-
+ 
  
 }
 
