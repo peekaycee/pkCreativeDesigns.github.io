@@ -286,6 +286,10 @@
  .card {
     height: 250px;
  }
+ .staffPicsHolder{
+    width: 100%;
+    flex-wrap: wrap;
+ }
  
 }
 
