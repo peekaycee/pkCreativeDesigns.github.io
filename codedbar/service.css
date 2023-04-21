@@ -286,7 +286,7 @@ div.input-box span {
  div.menubtn, 
  div.menubtn-close {
      top: 15px;
-     right: -10px;
+     margin-left: 20px;
  }
  div.menubtn i, 
  div.menubtn-close i {
