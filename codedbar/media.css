@@ -322,8 +322,11 @@
      background: var(--gold);
   }
  .footer a {
- text-decoration: none;
+     text-decoration: none;
 }
+.recipe-text button {
+     margin-bottom: 10px;
+ }
 
 
 }
