@@ -289,6 +289,7 @@
  .staffPicsHolder{
     display: flex;
     width: 100%;
+    height: 100%;
  }
  
   .section-5  .section h2 {
