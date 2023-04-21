@@ -300,8 +300,10 @@ div.input-box span {
  .container.active {
      visibility: hidden;
  }
-   .service-container.active {
+ 
+  .service-container.active {
     filter: blur(0px);
+    pointer-events: initial;
 }
  
  }
