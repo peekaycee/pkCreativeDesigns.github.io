@@ -285,7 +285,7 @@ div.input-box span {
  }
  .menubtn, .menubtn-close {
      top: 15px;
-     right: -15px;
+     right: 0px;
  }
  .menubtn i, .menubtn-close i {
     font-size: 20px;
@@ -295,7 +295,7 @@ div.input-box span {
  }
  .logoS {
     width: 30px;
-    margin-left: -30px;
+    margin-left: -20px;
  }
  .container.active {
      visibility: hidden;
