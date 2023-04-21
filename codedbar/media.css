@@ -301,7 +301,9 @@
     width: 30%;
     
   }
- 
+ .section-4holder button {
+    border-radius: 10px;
+ }
  
  
 }
