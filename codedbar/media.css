@@ -302,8 +302,10 @@
   }
  .section-4holder button {
     border-radius: 10px;
-    background: var(--gold);
  }
+ .section-6 .registerholder div.btn button {
+     background: var(--gold);
+  }
  
  
 }
