@@ -251,6 +251,9 @@
  .navigation{
     display: block;
  }
+ .menubtn {
+    display: block;
+ }
  div.logo{
      left:30px;
      width: 40px;
@@ -325,6 +328,8 @@
  text-decoration: none;
 }
 
+
+}
 
 @media only screen and (max-width: 640px) {
  div.logo {
