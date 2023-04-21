@@ -297,7 +297,9 @@ div.input-box span {
     width: 40px;
     margin-left: 10px;
  }
- 
+ .container {
+     display: none;
+ }
  
  }
 
