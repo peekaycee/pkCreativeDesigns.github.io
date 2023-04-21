@@ -327,7 +327,10 @@
 .recipe-text button {
      margin-bottom: 10px;
  }
- 
+ .recipe-text p {
+     margin-bottom: 5px;
+ }
+
  
 
 }
