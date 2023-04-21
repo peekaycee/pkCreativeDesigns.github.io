@@ -299,15 +299,18 @@
     padding: 0;
  }
   .section-5  .section h2 {
-    margin-left: -20px;
-    marin-bottom: 10px;
+    margin-left: -50px;
+    marin-bottom: 20px;
   }
   .staffpics {
-    margin: 0 20px;
+    margin: 0 25px;
     width: 20%;
+    justify-content: center;
+    align-items: center;
   }
  .staffname p {
     font-size: 0.9em;
+    text-align: center;
  }
  .section-4holder button {
     border-radius: 10px;
