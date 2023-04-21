@@ -347,8 +347,11 @@
  #navtabs nav .take-out {
     display: none;
  }
- 
+ .service-box {
+    height: 150px;
+ }
 
+ 
 }
 
 @media only screen and (max-width: 640px) {
