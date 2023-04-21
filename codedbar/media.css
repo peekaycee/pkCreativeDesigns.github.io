@@ -298,13 +298,16 @@
     height: auto;
  }
   .section-5  .section h2 {
-    margin-top: 0px;
+    margin-left: -20px;
     marin-bottom: 10px;
   }
   .staffpics {
-    margin: 0 10px;
+    margin: 0 20px;
     width: 25%;
   }
+ .staffname p {
+    font-size: 1em;
+ }
  .section-4holder button {
     border-radius: 10px;
  }
