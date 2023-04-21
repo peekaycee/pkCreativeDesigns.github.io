@@ -321,8 +321,8 @@
  .section-6 .registerholder div.btn button {
      background: var(--gold);
   }
- 
- 
+ .footer a {
+ text-decoration: none;
 }
 
 
