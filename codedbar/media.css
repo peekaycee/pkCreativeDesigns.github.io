@@ -355,6 +355,9 @@
  .orderlist h3 {
       display: none;
  }
+ .orderlist p {
+      margin-top: -50px;
+ }
  
 }
 
