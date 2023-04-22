@@ -358,6 +358,9 @@
  .menulist:hover .orderlist{
     visibility: hidden;
 }
+ .menulist:hover .menupics::before {
+     opacity: 1;
+}
  
 }
 
