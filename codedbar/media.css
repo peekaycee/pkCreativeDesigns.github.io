@@ -355,6 +355,9 @@
  .orderlist {
       display: none;
  }
+ .menulist:hover .orderlist{
+    visibility: hidden;
+}
  
 }
 
