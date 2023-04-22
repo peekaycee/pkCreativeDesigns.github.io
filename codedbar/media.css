@@ -352,7 +352,9 @@
  .heading {
        display: none;
  }
- 
+ .orderlist h3 {
+      display: none;
+ }
  
 }
 
