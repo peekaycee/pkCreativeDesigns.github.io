@@ -352,11 +352,8 @@
  .heading {
        display: none;
  }
- .orderlist h3 {
+ .orderlist {
       display: none;
- }
- .orderlist p {
-      margin-top: -50px;
  }
  
 }
