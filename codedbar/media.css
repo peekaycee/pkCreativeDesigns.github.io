@@ -359,7 +359,7 @@
     visibility: hidden;
 }
  .menulist:hover .menupics::before {
-     opacity: 1;
+     opacity: 0;
 }
  
 }
